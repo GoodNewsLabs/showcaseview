@@ -134,11 +134,6 @@ class Showcase extends StatefulWidget {
         assert(
           disposeOnTap == null || onTargetClick != null,
           "`onTargetClick` is required if you're using `disposeOnTap`",
-        ),
-        assert(
-          onBarrierClick == null || disableBarrierInteraction == false,
-          "can't use `onBarrierClick` & `disableBarrierInteraction` property "
-          'at same time',
         );
 
   /// Creates a showcase with a completely custom tooltip widget.
@@ -244,11 +239,6 @@ class Showcase extends StatefulWidget {
         assert(
           disposeOnTap == null || onTargetClick != null,
           "`onTargetClick` is required if you're using `disposeOnTap`",
-        ),
-        assert(
-          onBarrierClick == null || disableBarrierInteraction == false,
-          "can't use `onBarrierClick` & `disableBarrierInteraction` property "
-          'at same time',
         );
 
   /// A key that is unique across the entire app.
